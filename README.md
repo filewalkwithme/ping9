@@ -10,7 +10,7 @@ You can find the original source here: https://9p.io/sources/plan9/sys/src/cmd/i
 You need to run this program as root (or set `setuid` bit)
 
 ```
-sudo ./ping -n 4 google.com
+sudo ping9 -n 4 google.com
 sending 4 64 byte messages 1000 ms apart to 216.58.209.78
 0: rtt 20756943 µs, avg rtt 20756943 µs, ttl = 55
 1: rtt 20284438 µs, avg rtt 20520690 µs, ttl = 55
